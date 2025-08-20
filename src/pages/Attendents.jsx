@@ -24,9 +24,9 @@ const Attendance = () => {
   const salesPersonName = currentUser?.salesPersonName || "Unknown User";
   const userRole = currentUser?.role || "User";
 
-  const SPREADSHEET_ID = "13OMuFL3ki3gQr2ChP3Khhn5-BpGqDiwCF3sbGNUCC8A";
+  const SPREADSHEET_ID = "1WTT8ZQhtf1yeSChNn2uJeW5Tz2TvYjQLrxhTx5l4Fgw";
   const APPS_SCRIPT_URL =
-    "https://script.google.com/macros/s/AKfycbyfOAZd4NmrUoBG_NXROrNwdGRoNNMyVAgBczoIQWwxovEpCeQ3ODtQlvsv7_wpYgtf/exec";
+    "https://script.google.com/macros/s/AKfycbxwve2gvQqFeo_OAkIBVS5uzKX92fZJAEyYtgE0GWQPlxs-3r-ofYA00_mEM19LumWIUg/exec";
 
   const formatDateInput = (date) => {
     return date.toISOString().split("T")[0];

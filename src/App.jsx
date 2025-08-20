@@ -27,7 +27,7 @@ const App = () => {
   const [tabs, setTabs] = useState([]); // State to hold the tabs preference
 
   // Spreadsheet ID for Google Sheets data
-  const SPREADSHEET_ID = "13OMuFL3ki3gQr2ChP3Khhn5-BpGqDiwCF3sbGNUCC8A"; // Your Tracker's Spreadsheet ID
+  const SPREADSHEET_ID = "1WTT8ZQhtf1yeSChNn2uJeW5Tz2TvYjQLrxhTx5l4Fgw"; // Your Tracker's Spreadsheet ID
 
   useEffect(() => {
     const auth = localStorage.getItem("isAuthenticated");
